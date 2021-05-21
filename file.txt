@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sean Kamugasa Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-JTFC13BF8S"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-JTFC13BF8S');
+	</script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><span> S </span>&nbsp EAN</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Badges & Certs</span></a></li>
+	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section class="hero-wrap js-fullheight">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+          	<div class="text text-center">
+          		<span class="subheading">Hey! I am</span>
+		  				<h1>Sean Kamugasa</h1>
+			  				<h2>I'm a 
+								  <span
+								     class="txt-rotate"  
+								     data-period="2000"
+								     data-rotate='[ "Python based Software Developer", "Data Scientist", "Enterprise Design Practioner", "Graphics Designer", "Retired Digital Marketer" ]'></span>
+								</h2>
+							</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mouse">
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+				</a>
+			</div>
+    </section>
+
+    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about.png);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<h1 class="big">About</h1>
+		            <h2 class="mb-4">About Me</h2>
+		            <p>
+						I am a passionate, hardworking, dedicated
+						hands on Python based software developer and data scientist with
+						thirst of constant learning. I have hands on 
+						experience in developing scalable web applications in
+						Django Frame work as an additional skill but I
+						Am majorly focussed into data science. I enjoy
+						using Linux OS from Data science handling to
+						software development. It makes my life easier.
+					</p>
+		            <ul class="about-info mt-4 px-md-0 px-2">
+		            	<li class="d-flex"><span>Name:</span> <span>Sean Kamugasa</span></li>
+		            	<li class="d-flex"><span>Date of birth:</span> <span>January 19, 1995</span></li>
+		            	<li class="d-flex"><span>Address:</span> <span>Kisaasi Kampala Uganda</span></li>
+		            	<li class="d-flex"><span>Zip code:</span> <span>256</span></li>
+		            	<li class="d-flex"><span>Email:</span> <span>seankamugasa@gmail.com</span></li>
+		            	<li class="d-flex"><span>Phone: </span> <span>+256-785-030-805</span></li>
+		            </ul>
+		          </div>
+		        </div>
+                </p>
+                <p><a href="https://drive.google.com/file/d/1bRYvATyTk3xjg7qBL_yW66juSe4VlV4d/view?usp=sharing" class="btn btn-primary py-3 px-3">Download PDF Resume</a></p>
+              </div>
+	          </div>
+	        </div> 
+        </div>
+    	</div>
+    </section><br><br><br>
+
+   
+	<!--Start Education Here-->
+    <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-3">
+				    <nav id="navi">
+					    <ul>
+					      <li><a href="#page-1">EDUCATION</a></li>
+					      <li><a href="#page-2">EXPERIENCE</a></li>
+					      <li><a href="#page-3">SKILLS</a></li>
+					      <li><a href="#page-4">AWARDS</a></li>
+					    </ul>
+					  </nav>
+					</div>
+					<div class="col-md-9">
+					  <div id="page-1" class= "page one">
+					  	<h2 class="heading">&nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp EDUCATION</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">Sept 2015 - Dec 2020</span>
+		    					<h2>Bachelor of Science Degree in Information Technology</h2>
+		    					<span class="position">Uganda Christian University Mukono</span>
+								<p> <strong>Areas of concentraion included :</strong> 
+									<br>Computational Mathematics, Information Systems, 
+									Business Communication Skills, Computer Organization and Architecture, 
+									Information Technology, Basic Statistics, Communication Technology, 
+									System Analysis and Design, Computer Networks, Database Systems, 
+									Principles of Programing, Object Oriented Programing, Industrial Training (Internship), 
+									Systems Administration, Website Design, Research Methods, Business intelligence & Data Warehousing, 
+									Resource Planning...
+								</p>
+	    					</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2013-2014</span>
+		    					<h2>Uganda Advanced Certificate of Education (U.A.C.E)</h2>
+		    					<span class="position">Kiteredde Secondary School</span>
+		    					<p>I attained the Advanced Certificate after completion of my A'Level</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2009-2012</span>
+		    					<h2>Uganda Certificate of Education (U.C.E)</h2>
+		    					<span class="position">Lubiri Secondary School - Kampala</span>
+		    					<p>I attained the Uganda Certificate of Education after completion of my O'Level</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2002-2008</span>
+		    					<h2>Primary Leaving Examinations</h2>
+		    					<span class="position">Nabbunga Fountains Of Education</span>
+								<p>I sat for my Primary Leaving Examinations from Nabbunga which is a requirement to join Secondary Education</p>
+								<br><p><a href="https://drive.google.com/file/d/1bRYvATyTk3xjg7qBL_yW66juSe4VlV4d/view?usp=sharing" class="btn btn-primary py-3 px-3">Download PDF Resume</a></p>
+		    				</div>
+	    				</div>
+					  </div>
+
+					  <div id="page-2" class= "page two">
+					  	<h2 class="heading">&nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp EXPERIENCE</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2020 - 2021</span>
+		    					<h2>Remote Web Developer & Digital Marketer</h2>
+		    					<span class="position">CTFO - CBDfreebiz.org</span>
+		    					<p>
+									This is generally freelance work I do remotely from Uganda, Kampala for Marison Miller who deals in CBD products. 
+									Under this role, I have managed to set up and mainatin her website, Instagram page, edited videos, poster and banners for her business. 
+									<br>The website can be viewed via <a href="https://www.cbdfreebiz.org">https://www.cbdfreebiz.org</a>
+								</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2019 - 2020</span>
+		    					<h2>Sales and Marketing Director</h2>
+		    					<span class="position">Cross Roads Tours & Travel Ltd Uganda</span>
+								<p>Generated Sales from aggressive marketing leading to profits of 88 millon UGX in the first 4 months of recruitment.
+								<br>Cross Roads can be viewed via <a href="https://www.crossroadstoursuganda.com">https://www.crossroadstoursuganda.com</a>
+								</p>
+							</div>
+
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2016 - 2018</span>
+		    					<h2>Volunteer</h2>
+		    					<span class="position">YALI NETWORK, East Africa</span>
+		    					<p>2X Award winning Volunteer. I Volunteered and hosted three events about Human Rights, Gender Based Violence and Rights 
+									for women. 
+								<br>YALI NETWORK can be viewed via <a href="https://www.yalistate.gov">https://www.yalistate.gov</a>
+								</p>
+							</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2017-2016</span>
+		    					<h2>Intern</h2>
+		    					<span class="position">International Hospital of Kampala, Uganda</span>
+		    					<p>I.H.K was the first private Accredited Hospital in Uganda. The internship lasted for a period of 
+									4 months and I was trained in areas of Software Development, Networking and Systems Administration.
+								</p>
+							</div>
+
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2016-2015</span>
+		    					<h2>Business Development Director</h2>
+		    					<span class="position"><b>AIESEC</b> at Uganda Christian University Mukono. Roles included:</span>
+		    					<p>
+                                <li>Conduct a Customer Relations Management(CRM).</li>
+                                <li>Attain TNs and Cooperate companies to support AIESEC related activities.</li>
+                                <li>Educate members of the entire LC about aiesec products.</li>
+								<li>Work with LCVP igv and marketing to attain the objectives of AIESEC.</li>
+								AIESEC can be viewed via <a href="https://www.aiesec.org">https://www.aiesec.org</a>
+								</p>
+							</div>
+
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2015-April- 2015 Dec</span>
+		    					<h2>Data Entrant</h2>
+		    					<span class="position">BCDP Ltd, Hoima, Uganda</span>
+		    					<p>Data entry and systems maintainence</p>
+							</div>
+
+	    				</div>
+					  </div>
+					  <div id="page-3" class= "page three">
+					  	<h2 class="heading">SKILLS</h2>
+					  	<div class="row progress-circle mb-5">
+					  		<div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='90'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						            <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+						          </div>
+						          <div class="col-6">
+						            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='80'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						            <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+						          </div>
+						          <div class="col-6">
+						            <div class="h4 font-weight-bold mb-0">70%</div><span class="small text-gray">Last month</span>
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">SQL & Relational DB</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='75'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">58<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						            <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+						          </div>
+						          <div class="col-6">
+						            <div class="h4 font-weight-bold mb-0">52%</div><span class="small text-gray">Last month</span>
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+					  	</div>
+					  	<div class="row">
+					  		<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Data Analysis Using Python</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+										    <span>82%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Enterprise Design Thinking</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+										    <span>95%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Data Visualization Using Python</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
+										    <span>95%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Prposal Writing for NGO's</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+										    <span>90%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Django Web Development</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+										    <span>83%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Machine Learning with Py-Level 1</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										    <span>58%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+					  	</div>
+					  </div>
+					  <div id="page-4" class= "page four">
+					    <h2 class="heading">&nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp AWARDS</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">26th July 2019</span>
+		    					<h2>Award of Recognition against Gender Based Violence.</h2>
+		    					<span class="position">YALI NETWORK</span>
+		    					<p>
+									I received this certificate of recognition for 
+									participating and hosting 2 events against Gender Based violence in Women. 
+									This award can be viewed from my linkedIn profile directly and volunteership section
+								</p>
+	    					</div>
+	    				</div>
+
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2017 February</span>
+		    					<h2>Award of Human Rights</h2>
+		    					<span class="position">YALI NETWORK</span>
+		    					<p>I did a course about human rights via the YALINETWORK and voluntered by 
+									hosting 3 events in relation to human rights. This award can be viewed
+									from my linkedIn profile directly and volunteership section.
+								</p>
+		    				</div>
+	    				</div>
+
+
+    <section class="ftco-section" id="services-section">
+    	<div class="container-fluid px-md-5">
+    		<div class="row justify-content-center py-5 mt-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Badges</h1>
+            <h2 class="mb-4">SAMPLE BADGES</h2>
+			<p>Thank for your interest in viewing some of my badges of profession. All my badges can be viewed and verified through 
+			   the link below :
+			</p>
+			<a href="https://www.credly.com/users/sean_kamugasa/">https://www.credly.com/users/sean_kamugasa/</a>
+          </div>
+        </div>
+    		<div class="row">
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://www.youracclaim.com/badges/a2271b19-3471-4135-a57f-44bbba0079f2" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-idea"></i>
+							</span>
+							<div class="desc">
+								<h6>1. Enterprise Design Thinking Practitioner</h6>
+								<br><h6>Issued by: IBM</h6>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://www.youracclaim.com/badges/74ffff14-06af-4108-8d2f-76a52199b32f" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-idea"></i>
+							</span>
+							<div class="desc">
+                                <h6>2. Machine Learning with Python - Level 1</h6>
+                                <br><h6>Issued by: IBM</h6>
+							</div>
+							
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://www.youracclaim.com/badges/85187613-a81c-4b88-bc84-4ab70e84f67a" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-idea"></i>
+							</span>
+							<div class="desc">
+								<h6>3. Data Analysis Using Python </h6>
+                                <br><br><h6>Issued by: IBM</h6>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://www.youracclaim.com/badges/587b9062-5573-41c9-a0a1-daaf23277545" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-idea"></i>
+							</span>
+							<div class="desc">
+								<h6>4. Data Visualization Using Python</h6>
+                                <h6>Issued by: IBM</h6>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://www.youracclaim.com/badges/7e2193cd-f3cb-4100-bae9-7944a8e67b74" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-idea"></i>
+							</span>
+							<div class="desc">
+								<h6>5. Python for Data Science</h6>
+                                <h6><br>Issued by: IBM</h6>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://www.youracclaim.com/badges/6349fe48-423f-4b47-af50-963cc75ad3e7" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-idea"></i>
+							</span>
+							<div class="desc">
+                                <h6>6. Data Science Foundations</h6>
+                                <h6><br>Issued by: IBM</h6>
+							</div>
+						</a>
+					</div>
+				</div>
+    	</div>
+    </section>
+
+
+
+    <section class="ftco-section" id="services-section">
+    	<div class="container-fluid px-md-5">
+    		<div class="row justify-content-center py-5 mt-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Badges</h1>
+            <h2 class="mb-4">OTHER CERTIFICATES & CERTIFICATIONS</h2>
+			<p>Thank for your interest in viewing some of my Certificates & Certifications of profession. 
+			</p>
+          </div>
+        </div>
+    		<div class="row">
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://courses.cognitiveclass.ai/certificates/40fb64861eac4cf484607c1599c16626" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+								<h6>1. SQL and Relational Databases 101</h6>
+								<br><h6>Issued by: IBM</h6>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://certificates.mooc.fi/validate/zct0jq8pcjm" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+                                <h6>2. Elements of Artificial Intelligence</h6>
+                                <br><h6>Issued by: University Of Helsiki</h6>
+							</div>
+							
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://hubspot-academy.s3.amazonaws.com/prod/certification/certificate-pdfs/EB3F49F79D324A59BFE46BF7185F092C" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+								<h6>3. Inbound Sales Certified </h6>
+                                <br><br><h6>Issued by: Hubspot Academy</h6>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://drive.google.com/file/d/1fYLr5244aKFMMFSAylmd0NoVFcE7dCrF/view" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+								<h6>4. Fundamentals Of Digital Marketing</h6>
+                                <br><h6>Issued by: Google</h6>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://drive.google.com/file/d/1_O0v2JkYNWr6OklcdJo6NsoBQ2z33ZXf/view" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+								<h6>5. Children and Climate Change</h6>
+                                <h6><br>Issued by: UNCCLearn</h6>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="https://drive.google.com/file/d/1XmFI-9wbxlAxTJVcxdCq4RIALSziePfW/view" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+                                <h6>6. Google Ads Certified</h6>
+                                <h6><br>Issued by: Google</h6>
+							</div>
+						</a>
+					</div>
+				</div>
+    	</div>
+    </section>
+
+
+
+
+
+
+    <section class="ftco-section ftco-project" id="projects-section">
+    	<div class="container-fluid px-md-0">
+    		<div class="row no-gutters justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">My Public Projects</h2>
+			<p>
+				Thank for your interest in viewing my public projects. 
+				Except public software development projects that can be viewed from my github account, 
+				the rest of the projects are not hosted on github but are Downloadable.
+				Direct access to my All GitHub Repositories can 
+				be accessed through the link below :
+			</p>
+			<a href="https://github.com/seankamugasa/">https://github.com/seankamugasa/</a>
+          </div>
+        </div>
+    		<div class="row no-gutters">
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/5.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="https://github.com/seankamugasa/Elearning-System/">An Elearning System</a></h3>
+	    					<span>Django Web Development</span>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/3.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="https://drive.google.com/file/d/1XaNQL_-8T-BZ19DzcOYXmGslKZDPTZ_T/view?usp=sharing/">Data Analysis</a></h3>
+	    					<span>Wrangling, Preprocessing...</span>
+	    				</div>
+    				</div>
+  				</div>
+
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/1.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="https://drive.google.com/file/d/1pFKP9VnS_Hp8N1YEedT-DjTpQiQ2DxB6/view?usp=sharing/">CBD-CTFO Graphics</a></h3>
+	    					<span>Graphics</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/6.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="https://github.com/seankamugasa/Django-Blog-App/">Django Blog App</a></h3>
+	    					<span>Django Web Development</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/2.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="https://drive.google.com/file/d/1XaNQL_-8T-BZ19DzcOYXmGslKZDPTZ_T/view?usp=sharing/">Visualizations in Python</a></h3>
+	    					<span>Histograms, Matplot...</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/4.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="https://drive.google.com/file/d/1pFKP9VnS_Hp8N1YEedT-DjTpQiQ2DxB6/view?usp=sharing/">Tour & Travel Graphics</a></h3>
+	    					<span>Graphics</span>
+	    				</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>
+				Thank you for your interest in reaching out.
+				Am also available on
+				<a href="http://www.linkedin.com/in/sean-kamugasa/">linkedIn</a>, 
+				<a href="https://twitter.com/seanppxy/">Twitter</a>, 
+				<a href="https://www.instagram.com/sean.roberts.ck/">Instagram</a>, 
+			</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Address</h3>
+		            <p>Kisaasi, Kampala, Uganda</p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Contact Number</h3>
+					<p><a href="tel://+256785030805">+256785030805</a></p>
+					
+	            </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Email Address</h3>
+		            <p><a href="mailto:seankamugasa@gmail.com">info@sean.com</a></p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Website</h3>
+		            <p><br><a href="https://seankamugasa.github.io/">sean.com</a></p>
+	            </div>
+	          </div>
+          </div>
+        </div>
+		
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><strong>
+				Copyright &copy;<script>document.write(new Date().getFullYear());</script> Sean Kamugasa . All rights reserved
+ 			</strong></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
