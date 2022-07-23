@@ -276,7 +276,7 @@ ol {
 }
 
 .single-progress-item p {
-	color: #000;
+	color: #fff;
 	margin-bottom: 0;
 	font-weight: 600;
 }
@@ -301,7 +301,7 @@ ol {
 	position: absolute;
 	right: 0;
 	bottom: -30px;
-	color: #000;
+	color: #fff;
 	font-weight: 600;
 }
 
@@ -330,7 +330,7 @@ ol {
 	display: inline-block;
 	margin-right: 18px;
 	border-radius: 12px;
-	background: #40424a;
+	background: #000;
 }
 
 .language-progress .lan-prog span.fade-ele {
@@ -566,7 +566,7 @@ ol {
 .single-review .qut {
 	font-size: 120px;
 	line-height: 0;
-	color: #505259;
+	color: #000;
 	margin-top: 60px;
 }
 
