@@ -1,0 +1,16 @@
+Header banner : banner.png 
+1920 x 900
+
+
+Gallery folder
+1. Microsoft power bi 
+	441 x 548
+2. Python 
+	441 x 390 
+3. Microsoft Excel 
+	441 x 390 
+4. Software Engneering
+	441 x 548 
+
+thick green : 073513
+light green : 
