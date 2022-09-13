@@ -1,455 +1,537 @@
-<!DOCTYPE html>
-
-<html lang="en">
-  <head>
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Homepage</title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SEAN PORTFOLIO</title>
-    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
-    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+	<!-- CSS here -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
+    <link rel="stylesheet" href="assets/css/gijgo.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/animated-headline.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="assets/css/themify-icons.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles-merged.css">
-    <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!--[if lt IE 9]>
-      <script src="js/vendor/html5shiv.min.js"></script>
-      <script src="js/vendor/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-
-  <!-- START: header -->
-  
-  <div class="probootstrap-loader"></div>
-
-  <header role="banner" class="probootstrap-header">
-    <div class="container">
-        <a href="index.html" class="probootstrap-logo">SEAN<span>.</span></a>
-        
-        <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
-        <div class="mobile-menu-overlay"></div>
-
-        <nav role="navigation" class="probootstrap-nav hidden-xs">
-          <ul class="probootstrap-main-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="power.html">Power BI</a></li>
-            <li><a href="excel.html">Ms Excel</a></li>
-            <li><a href="python.html">Python</a></li>
-            <li><a href="soft.html">Software Engineering</a></li>
-          </ul>
-          <ul class="probootstrap-right-nav hidden-xs">
-            <li><a href="http://www.linkedin.com/in/sean-kamugasa/" target="_blank"><i class="icon-linkedin"></i></a></li>
-            <li><a href="https://github.com/seankamugasa/" target="_blank"><i class="icon-github"></i></a></li>
-            <li><a href="https://www.instagram.com/sean.roberts.ck/" target="_blank"><i class="icon-instagram"></i></a></li>
-          </ul>
-          <div class="extra-text visible-xs"> 
-            <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
-            <h5>Contact Me</h5>
-            <p>
-              <a class="boxed-btn3-line" href="tel://+256785030805">+256785030805</a>
-              <br><a href="mailto:seankamugasa@gmail.com">seankamugasa@gmail.com</a>
-              <br>Kira - Wakiso, Kampala UG
-            </p>
-            <h5>Connect</h5>
-            <ul class="social-buttons">
-              <li><a href="http://www.linkedin.com/in/sean-kamugasa/" target="_blank"><i class="icon-linkedin"></i></a></li>
-              <li><a href="https://github.com/seankamugasa/" target="_blank"><i class="icon-github"></i></a></li>
-              <li><a href="https://www.instagram.com/sean.roberts.ck/" target="_blank"><i class="icon-instagram"></i></a></li>
-            </ul>
-          </div>
-        </nav>
+</head>
+<body>
+    <!-- ? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="assets/img/logo/loder.png" alt="">
+                </div>
+            </div>
+        </div>
     </div>
-  </header>
-  <!-- END: header -->
-  <section class="probootstrap-slider flexslider">
-    <ul class="slides">
-      <li style="background-image: url(img/slider_1.png);">
+    <!-- Preloader Start -->
+    <header>
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu f-right d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="protfolio.html">Power BI</a></li>
+                                    <li><a href="python.html">Python</a></li>
+                                    <li><a href="excel.html">MS Excel</a></li>
+                                    <li><a href="soft.html">Software Engineering</a></li>
+                                </ul>
+                            </nav>
+                        </div>          
+                        <!-- Header-btn -->
+                        <div class="header-info-right d-none d-lg-block">
+                            <a href="mailto:seankamugasa@gmail.com" class="btn header-btn">Email Me Now<i class="ti-arrow-right"></i></a>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <main>
+        <!--? Hero Area Start-->
+        <div class="slider-area">
+            <div class="single-slider slider-height d-flex align-items-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-12 col-lg-10 col-md-10 col-sm-10">
+                            <!-- Hero Caption -->
+                            <div class="hero__caption">
+                                <h1>Sean.K</h1>
+                                <p>Business Data Analyst & Software Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Hero Area End-->
+        <!--? About 1 Start-->
+        <section class="about-area section-padding40">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <div class="slides-text probootstrap-animate">
-                <h2>WELCOME</h2>
-                <p>I'm Sean Kamugasa. <br>Enjoy exploring my data science & software engineering Portfolio</p>
-              </div>
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-10">
+                    <div class="about-caption mb-50">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle mb-35">
+                            <h2>About</h2>
+                        </div>
+                        <p>A 4 year experienced practically hands on Business Data Analyst who has gone beyond the craft of Software Engineering to handling complex datasets of more than 3 million records. I have been tested and proven to understand the business or organisation problem at hand, clean the data, visualize and derive insights to enable stake holders make data driven decisions.</p> 
+                        <span class="text-top">PYTHON : <medium>98%</medium></span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
+                        </div>
+                    <span>MICROSOFT POWER BI : <medium>98%</medium></span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
+                        </div>
+                    <span>SQL : <medium>96%</medium></span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 96%;"></div>
+                        </div>
+                    <span>MICROSOFT EXCEL : <medium>97%</medium></span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 97%;"></div>
+                        </div>
+                        <span>DJANGO : <medium>95%</medium></span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img src="assets/img/me.jpg" alt="">
+                    </div>
+                </div>
             </div>
-          </div>
+            </div>
         </div>
-      </li>
-    </ul>
-  </section>
-  <!-- END: slider  -->
+        </section>
+        <!-- About  End-->
+        <!--? May-about Start -->
+        <div class="may-about section-padding40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle2 mb-30">
+                            <h2>Experience</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="single-about">
+                            <div class="tittle-experience">
+                                <h3>Business Data Analyst Consultant</h3>
+                                <p>2nd Feb 2020 - 2022 - Present</p>
+                                <div class="experience-link">
+                                    <a href="#">Embakasi Ranching Company Ltd, Kenya | Remotely<i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                <p>
+                                    <br>1. Working with the data team to understand business needs and translate those needs into actionable reports in Microsoft Power Bi saving 14 hours of manual work each week.
+                                    <br>2. Utilizing python to process large streaming datasets of over 10 million records to improve data ingestion as well as processing speed of that data by 85%.
+                                    <br>3. Receiving, cleaning, transformed and prepared data using Python,SQL,Excel and Microsoft Power bi to help the data team generate insights from customer data.
+                                    <br>4. Identifing and reporting areas of improvement for the data team especially the data collection processes to reduce outdated or superfluous information in their database.
+                                    <br>5. Supporting information technology needs by creating and modifying databases as needed.
+                                    <br>6. Implementing best practices in data management to ensure the integrity of the data, the quality of data processes and delivering analyzable or analyzed data to a variety of internal and external clients
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="single-about">
+                            <div class="tittle-experience">
+                                <h3>Business Data Analyst Consultant</h3>
+                                <p>1st April- 10th Sept 2022 </p>
+                                <div class="experience-link">
+                                    <a href="https://www.aidkonekt.com/usaid-biz-dev">AIDKONEKT DATA, Colorado, USA | Remote Contract <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                <p>
+                                    <br>1. Manipulating complex USAID public data sets to discover data patterns through the usage of tools like SQL, POWER BI, EXCEL and PYTHON.
+                                    <br>2. Building reports and dashboards rich in Forecasts, KPIs, to derive insights to support data driven decisions.
+                                    <br>3. Mining data to enhance market analysis per USAID grants.
+                                    <br>4. Providing software Engineering support.
+                                    <br>5. Deploying embedded dashboards within systems.
+                                    <br>6. Deploying dashboards via power bi service. 
+                                    <br>7. Drafting and compiling insighful reports for the executive bodies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="single-about">
+                            <div class="tittle-experience">
+                                <h3>Software Engineer Consultant</h3>
+                                <p>2019-2021</p>
+                                <div class="experience-link">
+                                    <a href="https://www.cbdfreebiz.com/">CTFO-CBDFREEBIZ, California, USA <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                <p>
+                                        1. Developed and deployed Ecommerce Systems for CTFO vendors.
+                                    <br>2. Collected digital marketing data and built specialized reports and dashboards to derive insights to support data driven decisions. 
+                                    <br>3. Provided digital marketing support.
+                                    <br>4. Managed data projects assigned by superior management and submitted reports containing factual data insights.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="single-about">
+                        <div class="tittle-experience">
+                            <h3>LCVP Business Development</h3>
+                            <p>Sep 2016 - May 2017</p>
+                            <div class="experience-link">
+                                <a href="https://www.aiesec.org/">AISEC <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            <p>
+                                AIESEC.org is the largest youth led organization in the world operating under a tight grip of UN SDGs.
+                                <br>1. Finding TNs and retaining prospective partners/sponsors to support aiesec activities.
+                                <br>2. Building capacity in staff through regular training and mentorship.
+                                <br>3. Attending networking activities to research and connect with prospective partners/sponsors.
+                                <br>4. Crafting business proposals and contracts to draw in more revenue from aiesec products.
+                                <br>5. Reviewing clients' feedback and implementing necessary changes
+                            </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- May-about End -->
+        <!--? My Expertise Start -->
+        <div class="our-services pt-top section-bg1">
+            <div class="container">
+                <div class="rwo">
+                    <div class="col-xl-12">
+                        <div class="section-tittle mb-75 text-center">
+                            <h2>EDUCATION</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="probootstrap-cta probootstrap-animate">
+                      <section class="probootstrap-section">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-4">
+                              <div class="service left-icon probootstrap-animate">
+                                <div class="text">
+                                  <h3 class="heading">University of Helsinki - Finland</h3>
+                                  <h4><strong><a href="https://certificates.mooc.fi/validate/zct0jq8pcjm" target="_blank">Elements of Artificial Intelligence </a></strong></h4><br>
+                                  <h3>Areas of Coverage:</h3>
+                                  <p>
+                                    <li><strong>1. Nueral Networks:</strong> Nueral network basics, How nueral networks are built and Advanced nueral network techniques.</li>
+                                    <li><strong>2. Machine Learning:</strong> The types of machine learning, The nearest neighbour classifier, Regression.</li>
+                                    <li><strong>3. Real World A.I:</strong> Odds and probability, The Bayes rule, Naive Bayes classification.</li>
+                                    <li><strong>4. A.I Problem Solving:</strong> Search and problem solving, Solving problems with A.I.</li>
+                                    <li><strong>5. Philophy of A.I.</strong></li>
+                                    <li><strong>6. Societal Implications of A.I.</strong></li>
+                                  </p>
+                                </div>
+                    
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="service left-icon probootstrap-animate">
+                                <div class="text">
+                                    <h3 class="heading">Uganda Christian University - Mukono</h3>
+                                    <h4><strong><a href="#" target="_blank">Bachelor of Science in I.T</a></strong></h4><br>
+                                    <h3>Areas of Coverage:</h3>
+                                    <p>
+                                        <li><strong>1. Computational Mathematics</strong></li>
+                                        <li><strong>2. Statistics</strong></li>
+                                        <li><strong>3. Databases</strong></li>
+                                        <li><strong>4. B.I & Ware Housing</strong></li>
+                                        <li><strong>5. Project Management</strong></li>
+                                        <li><strong>6. C++, Python, PHP</strong></li>
+                                        <li><strong>7. Resource Planning</strong></li>
+                                        <li><strong>8. Research Methods</strong></li>
+                                        <li><strong>9. Computer Networks</strong></li>
+                                        <li><strong>10. System Analysis & Design</strong></li>
+                                        <li><strong>11. Business Communication</strong></li>
+                                      </p>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="service left-icon probootstrap-animate">
+                                <div class="text">
+                                    <h3 class="heading">Data Analytical Certificates</h3>
+                                    <h4><strong><a href="#">Click onto Cert to Verify  </a></strong></h4><br>
+                                    <h3>Areas of Coverage:</h3>
+                                    <p>
+                                        <li><a href="https://learn.365datascience.com/certificates/CC-FC9D2D8102/" target="_blank">1. Advanced Microsoft Excel</a> : Pivot Tables, V Look Up, H Look Up, Index Match, Circular References, Visuals e.t.c</li>
+                                        <li><a href="https://learn.365datascience.com/certificates/CC-198BB5CEB4/" target="_blank">2. Data Analysis.Excel Pivot Tables</a></li>
+                                        <li><a href="https://learn.365datascience.com/certificates/CC-303FFBD4A3/" target="_blank">3. Python Programmer Boot Camp</a> : Loops, Functions, Classes, Unit Tests e.t.c</li>
+                                        <li><a href="https://www.udemy.com/certificate/UC-e5a480ad-cb6f-497b-aaa0-a68015b12ef2/" target="_blank"> 4. Microsoft Power BI</a> : DAX, Power Query, Visuals, Power BI Service & Desktop</li>
+                                        <li><a href="https://learn.365datascience.com/certificates/CC-888AA84CA0/" target="_blank">5. Data Strategy</a></li>
+                                        <li><a href="https://learn.365datascience.com/certificates/CC-D722E8E8E9/" target="_blank">6. SQL</a> : Joins, Aggregate Functions, Views, Constraints e.t.c</li>
+                                      </p>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                      <!-- END section -->
+            </div>
+        </div>
+        <!-- My Expertise End -->
 
-  <div class="container">
-    <div class="probootstrap-cta probootstrap-animate border-bototm-none">
-      <h2 class="mb20">Would you like to get mentored by me?</h2>
-      <p>
-        My mentorship is broken down in two ways. The free and paid option. With the free option, I will give you basic info 
-        about the pitfalls to avoid to get a deep dive into data science. The un sugar quoted facts about " what it takes to break through in this career."
-        At only $200 USD, I will give you a 100% solid blue print that will put you in a position of securing a business data analyst job within 4 months or less depending on your dedication. 
-        I will spare time for you through video calls. I will share with you simpler but effective data science methodologies so that you don't re invent the wheel again. 
-      </p>
-      <p><a href="mailto:seankamugasa@gmail.com" role="button" class="btn btn-primary" target="_blank">Email Me Now</a></p>
+        <!--? May-about Start -->
+        <div class="may-about section-padding40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle2 mb-30">
+                            <h2>Professional Badges</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="single-about">
+                            <div class="tittle-experience">
+                                <h3>Data Analysis Using Python</h3>
+                                <div class="experience-link">
+                                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">Issued by IBM <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                <p>
+                                    This badge earner understands the essential steps necessary to analyze data in Python using multi-dimensional arrays, manipulating DataFrames in pandas, using SciPy library of mathematical routines and performing machine learning using scikit-learn. This includes hands-on demonstration using Jupyter notebook in JupyterLab Python tools.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="single-about">
+                            <div class="tittle-experience">
+                                <h3>Data Visualization Using Python</h3>
+                                <div class="experience-link">
+                                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">Issued by IBM <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                <p>
+                                    This badge earner understands how Python libraries such as Matplotib, Seaborn and Folium are used for the creation and customization of graphical representation outputs for both small and large-scale data sets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="single-about">
+                            <div class="tittle-experience">
+                                <h3>Scrum Foundation Professional Certificate - SFPC</h3>
+                                <div class="experience-link">
+                                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">CertiProf <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                <p>
+                                    Scrum Foundation Professional Certificate holders have developed the entry-level skills in Scrum that endorses their fundamental knowledge in this framework. They have demonstrated an understanding of the empirical Scrum pillars of transparency, inspection, and adaptation. Their primary focus is on the work of the Sprint to make the best possible progress toward these goals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="single-about">
+                            <div class="tittle-experience">
+                                <h3>Machine Learning with Python - Level 1</h3>
+                                <div class="experience-link">
+                                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">Issued by IBM <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                <p>
+                                    The badge earner demonstrates an understanding of Supervised vs. Unsupervised Learning, applications of different types of machine learning models, and how to build and evaluate machine learning models.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="single-about">
+                            <div class="tittle-experience">
+                                <h3>Enterprise Design Thinking Practitioner</h3>
+                                <div class="experience-link">
+                                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">Issued by IBM <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                <p>
+                                    The earner has acquired knowledge of applying Enterprise Design Thinking and its value. As a Practitioner, the badge earner finds opportunities to try it out in their every day work.The earner has acquired knowledge of applying Enterprise Design Thinking and its value. As a Practitioner, the badge earner finds opportunities to try it out in their every day work. Areas of coverage include: Design, Empathy, Experience Design, UX, User Research.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="single-about">
+                            <div class="tittle-experience">
+                                <h3>Applied Data Science with Python - Level 2</h3>
+                                <div class="experience-link">
+                                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">Issued by IBM <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                                <p>
+                                    This badge earner is able to code in Python for data science. They can analyze and visualize data with Python with packages like scikit-learn, matplotlib and bokeh.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- May-about End -->
+
+
+        <!--? Gallery Area Start -->
+        <div class="gallery-area section-padding40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-tittle mb-60">
+                            <h2>Data Analytical Projects</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6 col-sm-6">
+                        <div class="box snake mb-30">
+                            <div class="gallery-img small-img " style="background-image: url(assets/img/4.png);"></div>
+                            <a href="protfolio.html">Micrsoft Power BI</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 ol-lg-6 col-lg-6 col-md-6 col-sm-6">
+                        <div class="box snake mb-30">
+                            <div class="gallery-img small-img " style="background-image: url(assets/img/2.png);"></div>
+                            <a href="python.html">Python</a>
+                        </div>
+                    </div>
+                    <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-6 col-sm-6">
+                        <div class="box snake mb-30">
+                            <div class="gallery-img small-img " style="background-image: url(assets/img/3.png);"></div>
+                            <a href="excel.html">Microsoft Excel</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6">
+                        <div class="box snake mb-30">
+                            <div class="gallery-img small-img " style="background-image: url(assets/img/5.png);"></div>
+                            <a href="soft.html">Software Engineering</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Gallery Area End -->
+    </main>
+    <footer>
+        <div class="footer-wrappr">
+            <div class="footer-top">
+                <!-- Want To work -->
+                <section class="wantToWork-area ">
+                    <div class="container">
+                        <div class="wants-wrapper w-padding2">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-xl-7 col-lg-9 col-md-8">
+                                    <div class="wantToWork-caption wantToWork-caption2">
+                                        <h2>Do you want to know more about me?</h2>
+                                    </div>
+                                </div>
+                                <div class="col-xl-2 col-lg-3 col-md-4">
+                                    <a href="https://drive.google.com/file/d/1T8THqCTT9YOPtYNbKr2kpyd1yxkcdH14/view?usp=sharing" class="btn white-btn f-right sm-left">Download Resume</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Want To work End -->
+            
+            <!-- footer-bottom area -->
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="footer-border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-4 col-lg-4">
+                                <div class="footer-social">
+                                    <a href="http://www.linkedin.com/in/sean-kamugasa/"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://github.com/seankamugasa/"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.instagram.com/sean.roberts.ck/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://twitter.com/seanppxy/"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-8 col-lg-8">
+                                <div class="footer-copy-right f-right">
+                                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> . All rights reserved | SEAN KAMUGASA 
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top" >
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
-  </div>  
+    <!-- JS here -->
 
-  <div class="probootstrap-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
 
-          <div class="panel-group probootstrap-panel" id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingOne">
-                <h3 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/animated.headline.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
 
-                    Business Data Analyst Consultant
-                  </a>
-                </h3>
-              </div>
-              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                <div class="panel-body">
-                  <h5>2022 - Present</h5>
-                  <p><em>AIDKONEKT DATA, Colorado, USA </em></p>
-                  <ul>
-                    <li>Manipulating complex data sets to discover data patterns through <br>the usage of tools like SQL, POWER BI, EXCEL and PYTHON.</li>
-                    <li>Building reports and dashboards rich in Forecasts, KPIs, to derive insights to support data driven decisions. </li>
-                    <li>Mining data to enhance market analysis per USAID grants.</li>
-                    <li>Providing software Engineering support</li>
-                  </ul>
-
-                  
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTwo">
-                <h3 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Data Analyst Consultant
-                  </a>
-                </h3>
-              </div>
-              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="panel-body">
-                  <h5>2022 - Present</h5>
-                  <p><em>Embakasi Ranching Company Ltd , Kenya</em></p>
-                  <ul>
-                    <li>Worked with the data team to understand business needs and translate those needs into actionable reports in Microsoft power bi saving 14 hours of manual work each week.</li>
-                    <li>Utilized python to process large streaming datasets of over 10 million records to improve data ingestion as well as processing speed of that data by 85%</li>
-                    <li>Received,cleaned,transformed and prepared data using Python,SQL,Excel and Microsoft Power bi to help the data team generate insights.</li>
-                  </ul>
-                  
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingThree">
-                <h3 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Software Engineer Consultant
-                  </a>
-                </h3>
-              </div>
-              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                <div class="panel-body">
-                  <h5>2019-2021</h5>
-                  <p><em>CTFO-CBDFREEBIZ, California, USA </em></p>
-                  <ul>
-                    <li>Developed and deployed Ecommerce Systems for CTFO vendors.</li>
-                    <li>Collected digital marketing data and built specialized reports and dashboards to derive insights to support data driven decisions. </li>
-                    <li>Provided digital marketing support.</li>
-                    <li>Managed data projects assigned by superior management and submitted reports containing factual data insights</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingFour">
-                <h3 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Sales and Marketing Executive
-                  </a>
-                </h3>
-              </div>
-              <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="panel-body">
-                  <h5>2019-2020</h5>
-                  <p><em>Cross Roads Tours & Travel-Uganda</em></p>
-                  <ul>
-                    <li>Made sales amounting to 55M UGX in the first four months of recruitment through relationship establishment with prospect clients outside Uganda Primarily.</li>
-                    <li>Minined data to enhance market analysis through the usage of tools like SQL & Power BI</li>
-                    <li>Organised data in the right formats that can easily be accessible by the company management body</li>
-                    <li>Built a data management system that migrated the company from storing data in excel sheets</li>
-                  </ul>
-                  
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTwo">
-                <h3 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Business Development Director
-                  </a>
-                </h3>
-              </div>
-              <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="panel-body">
-                  <h5>2016 - 2017</h5>
-                  <p><em>AIESEC, UCU LC, Uganda</em></p>
-                  <ul>
-                    <li>Solicited over 6 coporate companies to support summits and AIESEC related activities</li>
-                    <li>Attained 12 TNs which were incoporated into the AIESEC products</li>
-                    <li>Trained the Business Development Team about the marketing process of AIESEC related products</li>
-                    <li>Worked with the marketing and IGV team to represent AIESEC UCU at Country level and give it an out standing image</li>
-                  </ul>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-         <!-- END panel-group -->
- 
-         <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInLeft">
-
-          <figure>
-            <div class="probootstrap-video">
-              <h1>ABOUT ME</h1>
-              <h4>BUSINESS DATA ANALYST &AMP; SOFTWARE ENGINEER</h4>
-              <p>A practically hands on Business Data Analyst who has gone beyond the craft of Software Engineering to handling complex datasets of more than 3 million records. I have been tested and proven to understand the business or organisation problem at hand, clean the data, visualize and derive insights to enable stake holders make data driven decisions.</p>
-              <span class="text-top">PYTHON : <medium>98%</medium></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
-							</div>
-						<span>MICROSOFT POWER BI : <medium>98%</medium></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 98%;"></div>
-							</div>
-						<span>SQL : <medium>96%</medium></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 96%;"></div>
-							</div>
-						<span>MICROSOFT EXCEL : <medium>97%</medium></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 97%;"></div>
-							</div>
-							<span>DJANGO : <medium>95%</medium></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-							</div>
-              <a href="https://drive.google.com/file/d/1T8THqCTT9YOPtYNbKr2kpyd1yxkcdH14/view?usp=sharing" class="btn btn-default smoothScroll wow fadeInUp" target="_blank">Download Resume</a>
-            </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- END section -->
-  
-  
-  <div class="container">
-    <div class="probootstrap-cta probootstrap-animate">
-      <section class="probootstrap-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="service left-icon probootstrap-animate">
-                <div class="text">
-                  <h3 class="heading">Data Science Badges</h3>
-                  <p>
-                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">1. Data Visualization Using Py.IBM</a><br>
-                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">2. Data Analysis Using Py.IBM</a><br>
-                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">3. Lifelong Learning .CertiProf</a><br>
-                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">4. Applied Data Science For Py.IBM</a><br>
-                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">5. Lifelong Learning.CertiProf</a><br>
-                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">6. Scrum Foundation Pro.CertiProf</a><br>
-                    <a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">7. Machine Learning Lv1.IBM</a><br>
-                  </p>
-                </div>
+    <!-- Date Picker -->
+    <script src="./assets/js/gijgo.min.js"></script>
+    <!-- Nice-select, sticky -->
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <!-- Progress -->
+    <script src="./assets/js/jquery.barfiller.js"></script>
     
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service left-icon probootstrap-animate">
-                <div class="text">
-                  <h3 class="heading">Data Analytical Certificates</h3>
-                  <p>
-                    <a href="https://learn.365datascience.com/certificates/CC-FC9D2D8102/" target="_blank">1. Advanced Microsoft Excel</a><br>
-                    <a href="https://learn.365datascience.com/certificates/CC-198BB5CEB4/" target="_blank">2. Data Analysis.Excel Pivot Tables</a><br>
-                    <a href="https://learn.365datascience.com/certificates/CC-303FFBD4A3/" target="_blank">3. Python Programmer Boot Camp</a><br>
-                    <a href="https://certificates.mooc.fi/validate/zct0jq8pcjm" target="_blank">4. Elements of Artificial Intelligence</a><br>
-                    <a href="https://www.udemy.com/certificate/UC-e5a480ad-cb6f-497b-aaa0-a68015b12ef2/" target="_blank">5. Microsoft Power BI</a><br>
-                    <a href="https://learn.365datascience.com/certificates/CC-888AA84CA0/" target="_blank">6. Data Strategy</a><br>
-                    <a href="https://learn.365datascience.com/certificates/CC-D722E8E8E9/" target="_blank">7. SQL</a><br>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service left-icon probootstrap-animate">
-                <div class="text">
-                  <h3 class="heading">Quick Info</h3>
-                  <p>
-                        Tel: <a class="boxed-btn3-line" href="tel://+256785030805">+256785030805</a>
-                    <br>Email: <a href="mailto:seankamugasa@gmail.com">seankamugasa@gmail.com</a>
-                    <br>Location: Kira, Wakiso
-                    <br>City: Kampala, Uganda
-                    <br>Degree: Bsc I.T 
-                    <br>Specialization: B.I & Databases
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
-      <!-- END section -->
+    <!-- counter , waypoint,Hover Direction -->
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="./assets/js/waypoints.min.js"></script>
+    <script src="./assets/js/jquery.countdown.min.js"></script>
+    <script src="./assets/js/hover-direction-snake.min.js"></script>
 
-  <section class="probootstrap-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 section-heading probootstrap-animate">
-          <h2>Data Analytical Projects</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <a href="power.html"><img src="img/4.png" class="img-responsive img-border" alt=""></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">POWER BI</h2>
-              <p class="category">Data Dashboards &amp; Reports</p>
-              <p>
-                These dashboards have been developed purely for desktop version view. 
-                They are not mobile friendly. The interactive dasboards below might load 
-                faster, slower or not depending on the speed of your internet.
-                All interactive dashboards below have been tested and function well. 
-                Incase of load failure, please refresh your browser.
-              </p>
-              <p><a href="power.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <a href="python.html"><img src="img/2.png" class="img-responsive img-border" alt=""></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">PYTHON</h2>
-              <p class="category">Applied Data Science using Python</p>
-              <p>
-                I handled all these python related projects from Linux OS because it makes installation of 
-                python packages simpler and faster though they can be installed from other operating systems too.
-                By downloading and testing these projects you must have 
-                all the necessary tools such as numpy, jupyter, scikit learn etc already installed. 
-              </p>
-              <p><a href="python.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <a href="excel.html"><img src="img/3.png" class="img-responsive img-border" alt=""></a>
-            </div>
-            <div class="probootstrap-card-text">
-              <h2 class="probootstrap-card-heading mb0">Microsoft Excel</h2>
-              <p class="category">Data Analysis using Microsoft Excel</p>
-              <p><strong>Note:</strong> 
-                These are sample files, other areas of proficiency like circular 
-								references, <br>Index; Match; Index & Match, V look Up and match have not be added.<br><br>
-								<strong>- Sample Areas of coverage -</strong>
-								<br>1. Slicer, 2. Pivot Tables, 3. V lookup, 4. H lookup
-              </p>
-              <p><a href="excel.html">View details</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END section -->
-  
-  <div class="container">
-    <div class="probootstrap-cta probootstrap-animate">
-      <h2 class="mb20"><center>RECOMMENDATIONS</center></h2>
-      <section class="probootstrap-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="service left-icon probootstrap-animate">
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
     
+    <!-- Jquery Plugins, main Jquery -->	
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
 
-                <div class="text">
-                  <p>“Sean is a very hardworking individual with great work ethic and whose goal oriented personality yielded great results for the organisation. He was able to derive insights from complicated and complex datasets through the usage of data tools like Python, SQL, Power BI & Excel. This enabled the organisation to make data driven decisions thus improving ROI."</p>
-									<h3>Ronnie Lutaro</h3>
-									<span>Software Engineer Consultant, UN Women<br>+256772622186</span>
-                </div>
-  
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service left-icon probootstrap-animate">
-                <div class="text">
-                  <p>“Sean is one of the few people that is always learning and improving on the way of completing a task. I would definitely recommend him for any software development project not only because of his passion for career development, but the skills he embraces when learning and explaining the inner workings of even the most complex software systems."</p>
-									<h3>Kelvin Galabuzi</h3>
-									<span>Multi Cloud Architecture, DevOps Engineer<br>+256705914627</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service left-icon probootstrap-animate">
-                <div class="text">
-                  <p>“Sean is an extremly hardworking guy and works very tirelessly to meet the organizational targets. While at IHK, he was talented in systems administration, database management, Software engineering as well as networking. I greatly recommend him in a very busy environment that needs quick solutions in a timely manner. His a great tech asset."</p>
-									<h3>Kyazze Chris</h3>
-									<span>Technical Support Engineer, IHK<br>+256753098527</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </div>
-      <!-- END section -->  
 
-  <footer class="probootstrap-footer probootstrap-bg">
-    <div class="container">
-      <div class="row copyright">
-        <div class="col-md-6">
-          <div class="probootstrap-footer-widget">
-            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. SEAN KAMUGASA</p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="probootstrap-footer-widget right">
-            <ul class="probootstrap-social">
-              <li><a href="http://www.linkedin.com/in/sean-kamugasa/" target="_blank"><i class="icon-linkedin"></i></a></li>
-              <li><a href="https://github.com/seankamugasa/" target="_blank"><i class="icon-github"></i></a></li>
-              <li><a href="https://www.instagram.com/sean.roberts.ck/" target="_blank"><i class="icon-instagram"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <div class="gototop js-top">
-    <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
-  </div>
-  <script src="js/scripts.min.js"></script>
-  <script src="js/main.min.js"></script>
-  <script src="js/custom.js"></script>
-
-  
-  </body>
+    
+    </body>
 </html>
