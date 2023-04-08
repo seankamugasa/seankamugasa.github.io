@@ -215,7 +215,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  color: #670000;
+  color: #fff;
   margin-top: 0px;
   font-style: normal;
   font-weight: 400;
@@ -512,13 +512,13 @@ hr {
   text-transform: capitalize;
   border-radius: 0px;
   cursor: pointer;
-  color: #fff;
+  color: #10782b;
   display: inline-block;
   font-size: 16px;
   background-size: 200%;
   transition: 0.6s;
   box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
-  background-image: linear-gradient(to left, #670000, #880707, #670000);
+  background-image: linear-gradient(to left, #f7b61c, #f7b61c, #f7b61c);
   background-position: right;
 }
 
@@ -575,13 +575,13 @@ hr {
 /* line 303, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .white-btn {
   padding: 18px 36px;
-  background: #FFEFAE;
-  color: #670000 !important;
+  background: #f7b61c;
+  color: #fff !important;
 }
 
 /* line 307, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .white-btn::before {
-  background: #670000;
+  background: #f7b61c;
   color: #fff !important;
 }
 
@@ -736,7 +736,7 @@ hr {
 /* scrollUp */
 /* line 442, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 #scrollUp, #back-top {
-  background: #670000;
+  background: #f7b61c;
   height: 50px;
   width: 50px;
   right: 31px;
@@ -3098,7 +3098,7 @@ hr {
 /*-------------   Color Variable  --------------*/
 /* line 38, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg1 {
-  background: #FFEFAE;
+  background: #fff;
 }
 
 /* line 41, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
@@ -3253,7 +3253,7 @@ hr {
 
 /* line 54, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul li a {
-  color: #670000;
+  color: #fd7e14;
   font-weight: 400;
   padding: 39px 19px;
   display: block;
@@ -3450,7 +3450,7 @@ hr {
 
 /* line 23, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-area {
-  background: #FFEFAE;
+  background: #0e477d;
 }
 
 /* line 25, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
@@ -3481,7 +3481,7 @@ hr {
 
 /* line 36, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption p {
-  color: #670000;
+  color: #fff;
   font-size: 30px;
   font-weight: 300;
   padding-right: 50px;
@@ -3551,7 +3551,7 @@ hr {
   font-size: 280px;
   font-weight: 300;
   text-transform: uppercase;
-  color: #670000;
+  color: #fff;
   line-height: 1;
   margin-bottom: 39px;
   margin-bottom: 39px;
@@ -3642,7 +3642,7 @@ hr {
 
 /* line 148, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .hero-area2 {
-  background: #FFEFAE;
+  background: #0e477d;
   height: 300px;
 }
 
@@ -3723,7 +3723,7 @@ hr {
   content: "";
   width: 100%;
   height: 27%;
-  background: #FFEFAE;
+  background: #0e477d;
   right: -100px;
   z-index: -1;
   top: 0;
@@ -3960,7 +3960,7 @@ hr {
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
 .may-about {
-  background: #670000;
+  background: #0e477d;
 }
 
 /* line 4, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
@@ -3982,7 +3982,7 @@ hr {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 13px 0px;
-  border-bottom: 1px solid #700F0F;
+  border-bottom: 1px solid #fff;
 }
 
 /* line 12, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
@@ -4041,7 +4041,7 @@ hr {
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
 .gallery-area {
-  background: #FFEFAE;
+  background: #fff;
 }
 
 /* line 4, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
@@ -4321,7 +4321,7 @@ hr {
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_footer.scss */
 .footer-wrappr {
-  background: #670000;
+  background: #0e477d;
 }
 
 /* line 10, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_footer.scss */
@@ -4476,7 +4476,7 @@ hr {
 
 /* line 131, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_footer.scss */
 .footer-social > a {
-  color: #FFEFAE;
+  color: #fff;
   width: 50px;
   height: 50px;
   font-size: 17px;
@@ -4484,7 +4484,7 @@ hr {
   display: inline-block;
   text-align: center;
   margin-right: 8px;
-  background: #771912;
+  background: #f7b61c;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
