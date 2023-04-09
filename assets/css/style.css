@@ -3254,7 +3254,7 @@ hr {
 /* line 54, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul li a {
   color: #fd7e14;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
   padding: 39px 19px;
   display: block;
@@ -4015,8 +4015,8 @@ hr {
 
 /* line 27, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
 .may-about .single-about .tittle-experience p {
-  font-weight: 200;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -4030,7 +4030,8 @@ hr {
 @media (max-width: 575px) {
   /* line 34, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
   .may-about .single-about .experience-link a {
-    font-size: 13px;
+    font-weight: 300;
+    font-size: 16px;
   }
 }
 
