@@ -225,7 +225,7 @@ h6 {
 /* line 24, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 p {
   font-family: "Poppins", sans-serif;
-  color: #202020;
+  color: #fff;
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 15px;
@@ -2992,7 +2992,7 @@ hr {
 
 /* line 937, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .section-tittle p {
-  color: #202020;
+  color: #fff;
 }
 
 /* line 940, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
@@ -3022,7 +3022,7 @@ hr {
   font-weight: 300;
   line-height: 1.4;
   margin-bottom: 22px;
-  color: #202020;
+  color: #fff;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3061,7 +3061,7 @@ hr {
 
 /* line 982, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .section-tittle2 h2 {
-  color: #fff;
+  color: #000;
   font-size: 80px;
   font-weight: 300;
 }
@@ -3098,7 +3098,7 @@ hr {
 /*-------------   Color Variable  --------------*/
 /* line 38, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg1 {
-  background: #ffcb05;
+  background: #0e477d;
 }
 
 /* line 41, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
@@ -3683,7 +3683,7 @@ hr {
 
 /* line 1, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
 .about-area {
-  background: #ffcb05;
+  background: #3b5998;
   position: relative;
   margin-right: 100px;
   position: relative;
@@ -3960,7 +3960,7 @@ hr {
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
 .may-about {
-  background: #0e477d;
+  background: #8b9dc3;
 }
 
 /* line 4, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
@@ -3995,7 +3995,7 @@ hr {
 .may-about .single-about .tittle-experience h3 {
   font-weight: 300;
   font-size: 30px;
-  color: #ffcb05;
+  color: #000;
   margin-bottom: 19px;
 }
 
@@ -4017,14 +4017,14 @@ hr {
 .may-about .single-about .tittle-experience p {
   font-weight: 300;
   font-size: 16px;
-  color: #fff;
+  color: #000;
 }
 
 /* line 34, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
 .may-about .single-about .experience-link a {
   font-weight: 300;
   font-size: 20px;
-  color: #ffcb05;
+  color: #000;
 }
 
 @media (max-width: 575px) {
