@@ -2,24 +2,23 @@
 <html lang="en" class="no-js" >
 <head>
 
-    <!--- basic page needs
-    ================================================== -->
+    <!-- Basic page needs -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sean Kamugasa</title>
+    <meta name="description" content="Sean Kamugasa — Senior Business Data Analyst. Power BI, SQL, Python, Excel, Data Visualization, Project Management.">
+    <title>Sean Kamugasa — Business Data Analyst</title>
 
     <script>
+        // Enable JS-specific class for progressive enhancement
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
     </script>
 
-    <!-- CSS
-    ================================================== -->
+    <!-- Styles -->
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- favicons
-    ================================================== -->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -29,6 +28,9 @@
 
 
 <body id="top">
+
+    <!-- Skip to content for keyboard users -->
+    <a class="skip-link" href="#content" style="position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;" onfocus="this.style.left='10px';this.style.width='auto';">Skip to content</a>
 
 
     <!-- preloader
@@ -43,9 +45,8 @@
     <div id="page" class="s-pagewrap">
 
 
-        <!-- # site header 
-        ================================================== -->
-        <header class="s-header">
+    <!-- Site header -->
+    <header class="s-header" role="banner">
 
             <div class="row s-header__inner">
 
@@ -54,10 +55,10 @@
 
                     </div>
 
-                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                    <a class="s-header__menu-toggle" href="#0" aria-expanded="false" aria-controls="site-navigation"><span>Menu</span></a>
                 </div> <!-- end s-header__block -->
 
-                <nav class="s-header__nav">
+                <nav id="site-navigation" class="s-header__nav" role="navigation" aria-label="Primary navigation">
     
                     <ul class="s-header__menu-links">
                         <li class="current"><a href="#intro" class="smoothscroll">Introduction</a></li>
@@ -67,9 +68,9 @@
                         <li><a href="#footer" class="smoothscroll">Contact</a></li>
                     </ul> <!-- s-header__menu-links -->
 
-                    <ul class="s-header__social">
-                        <a href="http://www.linkedin.com/in/sean-kamugasa/" target="_blank">LinkedIn</a> 
-                        <a href="https://github.com/seankamugasa" target="_blank">GitHub</a>
+                    <ul class="s-header__social" aria-label="Social links">
+                        <li><a href="http://www.linkedin.com/in/sean-kamugasa/" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="https://github.com/seankamugasa" target="_blank" rel="noopener">GitHub</a></li>
                     </ul> <!-- s-header__social -->
     
                 </nav> <!-- end s-header__nav -->
@@ -113,9 +114,8 @@
             </section> <!-- end s-intro -->
 
 
-            <!-- about
-            ----------------------------------------------- -->
-            <div id="styles" class="s-styles">
+            <!-- about -->
+            <section id="about-summary" class="s-styles">
 
                 <div class="row">
 
@@ -124,89 +124,51 @@
                         <h1>About Me</h1>
 
                         <p class="lead">
-                            A highly analytical and detail oriented <strong>Senior Business Data Analyst</strong> 
-                            with a practically hands background in <strong>Software Engineering</strong> 
-                            and <strong>Artificial Intelligence.</strong> 
-                            Experienced in analyzing extremely complex data sets, developing data models, 
-                            and creating data visualizations. Skilled in using <strong> SQL, Python, Excel, 
-                            Tableau and Microsoft Power BI</strong> to extract insights from data, improve 
-                            business processes, and support decision-making. 
-                            Adept at collaborating with stakeholders and presenting findings to non technical audiences.
+                            A highly analytical and detail-oriented <strong>Senior Business Data Analyst</strong>
+                            with hands-on experience in <strong>Software Engineering</strong>
+                            and <strong>Artificial Intelligence</strong>. Experienced in analyzing complex data sets, developing data models,
+                            and creating actionable data visualizations. Skilled with <strong>SQL, Python, Excel,
+                            Tableau, and Microsoft Power BI</strong> to extract insights, improve business processes, and support decision-making.
+                            Adept at collaborating with stakeholders and presenting findings to non-technical audiences.
                         </p>
-                        <h3 class="u-add-bottom">Hard Skill Bars</h3>
+                        <h3 class="u-add-bottom">Hard Skills</h3>
 
                         <ul class="skill-bars">
-                            <li>
-                            <div class="progress percent99"><span>99%</span></div>
-                            <strong>Power BI</strong>
-                            </li>
-                            <li>
-                            <div class="progress percent98"><span>98%</span></div>
-                            <strong>Microsoft Excel</strong>
-                            </li>
-                            <li>
-                            <div class="progress percent95"><span>95%</span></div>
-                            <strong>Python</strong>
-                            </li>
-                            <li>
-                            <div class="progress percent95"><span>95%</span></div>
-                            <strong>SQL</strong>
-                            </li>
-                            <li>
-                            <div class="progress percent95"><span>95%</span></div>
-                            <strong>Django</strong>
-                            </li>
-                            <li>
-                            <div class="progress percent93"><span>93%</span></div>
-                            <strong>Tableau</strong>
-                            </li>
-                            <li>
-                            <div class="progress percent98"><span>98%</span></div>
-                            <strong>ODK</strong>
-                            </li>
+                            <li><div class="progress percent99"><span>99%</span></div><strong>Power BI</strong></li>
+                            <li><div class="progress percent98"><span>98%</span></div><strong>Microsoft Excel</strong></li>
+                            <li><div class="progress percent95"><span>95%</span></div><strong>Python</strong></li>
+                            <li><div class="progress percent95"><span>95%</span></div><strong>SQL</strong></li>
+                            <li><div class="progress percent95"><span>95%</span></div><strong>Django</strong></li>
+                            <li><div class="progress percent93"><span>93%</span></div><strong>Tableau</strong></li>
+                            <li><div class="progress percent98"><span>98%</span></div><strong>ODK</strong></li>
                         </ul>
                     </div>
 
                 </div> <!-- end row -->
-                
-            <!-- about
-            ----------------------------------------------- -->
-            <div id="styles" class="s-styles">
+
+            </section>
+
+            <!-- soft skills -->
+            <section id="skills-soft" class="s-styles">
 
                 <div class="row">
 
                     <div class="column lg-12 intro">
-                        <h3 class="u-add-bottom">Soft Skill Bars</h3>
+                        <h3 class="u-add-bottom">Soft Skills</h3>
 
                         <ul class="skill-bars">
-                            <li>
-                            <div class="progress percent95"><span>95%</span></div>
-                            <strong>Project Management</strong>
-                            </li>
-                            <li>
-                            <div class="progress percent97"><span>97%</span></div>
-                            <strong>Grants-Proposal Writing For Non Profits</strong>
-                            </li>
-                            <li>
-                            <div class="progress percent95"><span>85%</span></div>
-                            <strong>Monitoring & Evaluation</strong>
-                            </li>
-                            <li>
-                            <div class="progress percent98"><span>98%</span></div>
-                            <strong>Critical Thinking</strong>
-                            </li>
-                            <li>
-                            <div class="progress percent95"><span>95%</span></div>
-                            <strong>Communication</strong>
-                            </li>
-                            <li>
-                            <div class="progress percent99"><span>99%</span></div>
-                            <strong>Team Work</strong>
-                            </li>
+                            <li><div class="progress percent95"><span>95%</span></div><strong>Project Management</strong></li>
+                            <li><div class="progress percent97"><span>97%</span></div><strong>Grants & Proposal Writing</strong></li>
+                            <li><div class="progress percent85"><span>85%</span></div><strong>Monitoring & Evaluation</strong></li>
+                            <li><div class="progress percent98"><span>98%</span></div><strong>Critical Thinking</strong></li>
+                            <li><div class="progress percent95"><span>95%</span></div><strong>Communication</strong></li>
+                            <li><div class="progress percent99"><span>99%</span></div><strong>Teamwork</strong></li>
                         </ul>
                     </div>
 
                 </div> <!-- end row -->
+
+            </section>
 
             <section id="about" class="s-about target-section">
 
@@ -221,7 +183,7 @@
 
             <!-- styles
             ----------------------------------------------- -->
-            <div id="styles" class="s-styles">
+            <div class="s-styles">
 
                 <div class="row">
 
@@ -232,95 +194,95 @@
                             FEBRUARY 2025 to Present<br><strong>VEROWGDEC [ REMOTE BASED ]</strong>
                         </div>
                         <div class="list-block__text">
-                            <p>
+                            <ul>
                                 <li>Developed M&E frameworks and tools to enhance project monitoring and evaluation processes.</li>
                                 <li>Conducted training sessions for staff on M&E best practices and tools.</li>
-                                <li>Developed the current website of <a href="https://www.verowgdec.org/" target="_blank">VEROWGDEC</a> using non complex technologies like HTML, CSS and JavaScript .</li>
+                                <li>Developed the current website of <a href="https://www.verowgdec.org/" target="_blank" rel="noopener">VEROWGDEC</a> using HTML, CSS and JavaScript.</li>
                                 <li>Developed and maintained dashboards and reports to visualize key performance indicators (KPIs) and trends.</li>
-                                <li>Maintained Donor relations and wrote grant proposals that secured funding for various projects.</li>
-                                <li>Supported in the establishment and maintenance of data quality protocols to ensure data met VEROWGDEC's privacy and protection guidelines.</li>
+                                <li>Maintained donor relations and wrote grant proposals that secured funding for various projects.</li>
+                                <li>Established and maintained data quality protocols to ensure data met VEROWGDEC's privacy and protection guidelines.</li>
                                 <li>Utilized data cleaning techniques (Excel, SQL, Python) to refine critical datasets, ensuring clean, reliable data for analysis.</li>
-                            </p>
-                        </div>                        
+                            </ul>
+                        </div>
                         <div class="list-block__title">
                             <h3 class="h5">Senior Business Data Analyst | Systems and Analytics Dept.<br>Research, Assessment and Monitoring Unit</h3>
                             JULY 2023-SEPT 2025<br><strong>UNITED NATIONS WFP | UGANDA [ ON-SITE ]</strong>
                         </div>
                         <div class="list-block__text">
-                            <p>
-                                <li>Supported in the building and implementation of data collection tools (AMS-S04, Social Protection-S05 & SO6) to standardize data collection across UN WFP Uganda Country Office.</li>
-                                <li>Supported in the establishment and maintainance of data quality protocols to ensure data met UN WFP's privacy and protection guidelines.</li>
-                                <li>Utilized data cleaning techniques (Excel, SQL, Python) to refine critical datasets from Arua, Karamoja and South West Area Offices. Delivered clean, reliable data for analysis.</li>
-                                <li>Leveraged data analysis skills and supported the supervision of UN Missions in hard-to-reach districts(Moroto, Abim, Kaabong, Kotido) during data collection.</li>
-                                <li>Assisted the Monitoring and Evaluation team in automating data monitoring workflows, improving efficiency and data accessibility.</li>
-                            </p>
+                            <ul>
+                                <li>Supported building and implementation of data collection tools (AMS-S04, Social Protection-S05 &amp; SO6) to standardize data collection across UN WFP Uganda Country Office.</li>
+                                <li>Helped establish and maintain data quality protocols to ensure compliance with UN WFP's privacy and protection guidelines.</li>
+                                <li>Utilized data cleaning techniques (Excel, SQL, Python) to refine datasets from Arua, Karamoja and South West Area Offices, delivering reliable data for analysis.</li>
+                                <li>Supported supervision of UN missions in remote districts during data collection.</li>
+                                <li>Assisted the M&E team in automating data monitoring workflows to improve efficiency and accessibility.</li>
+                            </ul>
                         </div>
                         <div class="list-block__title">
                             <h3 class="h5">Business Data Analyst Consultant</h3>
                             2nd Feb 2020 - 1st July 2023<br><strong>EMBAKASI RANCHING COMPANY | KENYA [ REMOTELY ] </strong>
                         </div>
                         <div class="list-block__text">
-                            <p>
+                            <ul>
                                 <li>Reduced data ingestion and processing time for datasets exceeding 10 million records by 85% using SQL optimization techniques.</li>
-                                <li>Collaborated with the Embakasi Ranching Company's data team to understand their business needs and translate them into actionable Power BI reports.</li>
-                                <li>Enabled the data team to generate customer insights 20% faster through data cleaning, transformation, and preparation using Python, SQL, Excel, and Power BI.</li>
-                                <li>Identified and rectified outdated information collection processes, leading to a 15% improvement in data accuracy for the Embakasi Ranching Company's database.</li>
-                            </p>
+                                <li>Collaborated with the Embakasi Ranching Company's data team to translate business needs into actionable Power BI reports.</li>
+                                <li>Enabled the data team to generate customer insights 20% faster through data cleaning, transformation, and preparation.</li>
+                                <li>Identified and rectified outdated information collection processes, improving data accuracy by 15%.</li>
+                            </ul>
                         </div>
                         <div class="list-block__title">
                             <h3 class="h5">Business Data Analyst Consultant</h3>
                             1st April 2022 - 15th Feb 2023<br><strong>AIDKONEKT DATA | COLORADO | USA [ REMOTELY ] </strong>
                         </div>
                         <div class="list-block__text">
-                            <p>
-                                <li>Leveraged SQL, Python, and Excel to analyze large, complex public USAID datasets, extracting valuable insights and identifying key trends.</li>
-                                <li>Built data-driven reports and dashboards rich with forecasts and KPIs, empowering management to make informed decisions.</li>
-                                <li>Developed robust data models and performed thorough data profiling to guarantee data quality and data integrity.</li>
-                                <li>Collaborated effectively with cross-functional teams to optimize business processes and pinpoint opportunities for data-driven decision-making.</li>
-                                <li>Enforced project management skills to see that the initiated data projects met the assigned deliverables.</li>
-                                <li>Enabled the data team to generate customer insights 20% faster through data cleaning, transformation, and preparation using Python, SQL, Excel, and Power BI.</li>
-                                <li>Assesed, identified and rectified outdated information collection processes, leading to a 15% improvement in data accuracy for the AIDKONEKT DATA's database.</li>
-                            </p>
+                            <ul>
+                                <li>Analyzed large public USAID datasets using SQL, Python, and Excel to extract insights and trends.</li>
+                                <li>Built data-driven reports and dashboards with forecasts and KPIs to inform decision-making.</li>
+                                <li>Developed data models and performed data profiling to ensure data quality and integrity.</li>
+                                <li>Collaborated with cross-functional teams to optimize processes and surface opportunities for data-driven decisions.</li>
+                                <li>Managed project deliverables to ensure initiatives met expectations.</li>
+                                <li>Improved data accuracy by 15% through process assessment and remediation.</li>
+                            </ul>
                         </div>
                         <div class="list-block__title">
                             <h3 class="h5">Volunteer</h3>
                             Nov 2016 - Mar 2020<br><strong>YALI Network | KENYA & UGANDA [ ON-SITE ]</strong>
                         </div>
                         <div class="list-block__text">
-                            <p>
-                                <li>Led the organization of 3 events focused on Gender-Based Violence and Human Rights, contributing to a more informed community and raising awareness in Uganda. These events Increased human rights and gender-based violence awarenness by 68%, sparked conversations reaching 820 people.</li>
-                                <li>Empowered women in Rakai District by providing technical skills in computer studies through a collaborative summit organized with VEROWGDEC.org. These skills included data coding, web development, business management and project management basics.</li>
-                                <li>Leveraging knowledge gained from the YALI Network entrepreneurship course, spearheaded fundraising efforts that secured UGX 25 million in donations for the Ddembelyabato Primary School project under VEROWGDEC.org. <strong>This impactful initiative resulted in:</strong><br><br></li>
-                                <strong>
-                                <ul>a. Installation of solar power for improved learning conditions.</ul>
-                                <ul>b. Enhanced security with installation of metallic doors.</ul>
-                                <ul>c. Improved learning environment with glass windows in classrooms.</ul>
-                                <ul>d. Upgraded dormitories for orphaned children.</ul>
-                                <ul>e. Improved sanitation through renovated pit latrines.</ul>
-                                <ul>f. Access to clean water with a new tap, eliminating the need for children to walk long distances. </ul>
-                                </strong>
-                            </p>
+                            <ul>
+                                <li>Led three events on Gender-Based Violence and Human Rights, increasing awareness and reaching over 800 people.</li>
+                                <li>Provided technical training to women in Rakai District in areas including coding, web development, and project management.</li>
+                                <li>Spearheaded fundraising that secured UGX 25 million for Ddembelyabato Primary School, resulting in:
+                                    <ul>
+                                        <li>Installation of solar power for improved learning conditions.</li>
+                                        <li>Enhanced security with new metallic doors.</li>
+                                        <li>Improved classrooms with new windows.</li>
+                                        <li>Upgraded dormitories for orphaned children.</li>
+                                        <li>Renovated sanitation facilities.</li>
+                                        <li>Access to clean water on-site.</li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                         <div class="list-block__title">
                             <h3 class="h5">TRAINEE</h3>
                             Jun 2017 - Aug 2017<br><strong>C-CARE HOSPITAL | UGANDA [ ON-SITE ]</strong>
                         </div>
                         <div class="list-block__text">
-                            <p>
-                                <li>Concentrated on Networking, Databases, Hardware Repair, Systems Administration and ERP so that the medical personnel could have stable and running systems.</li>
-                            </p>
+                            <ul>
+                                <li>Worked on networking, databases, hardware repair, systems administration, and ERP to ensure hospital systems were reliable.</li>
+                            </ul>
                         </div>
                         <div class="list-block__title">
                             <h3 class="h5">LCVP BUSINESS DEVELOPMENT</h3>
                             Sep 2016 - May 2017<br><strong>AIESEC | UGANDA [ ON-SITE ]</strong>
                         </div>
                         <div class="list-block__text">
-                            <p>
-                                <li>Identified and secured partnerships with 56 Training Network (TN) organizations, generating an estimated $20,000 USD in additional revenue/resources for AIESEC activities.</li>
-                                <li>Developed and delivered training programs for staff, resulting in a 60% increase in project management skills. Mentored junior staff, fostering their growth and knowledge.</li>
-                                <li>Led the development and execution of a strategic outreach plan, resulting in 56 new partnerships established with key stakeholders.</li>
-                            </p>
-                            </div>
+                            <ul>
+                                <li>Secured 56 Training Network partnerships, generating an estimated $20,000 USD in resources for AIESEC activities.</li>
+                                <li>Delivered training programs that increased project management skills among staff by 60% and mentored junior team members.</li>
+                                <li>Developed and executed a strategic outreach plan that established 56 partnerships with key stakeholders.</li>
+                            </ul>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -346,14 +308,22 @@
                             <h3 class="h3">a) UNIVERSITY EDUCATION</h3>
                         </div>
                         <div class="list-block__text">
-                            <p>
-                                <h4><li>Msc in Data Science</li></h4>
-                                <p>Nov 2022 - 27th June 2025<br>MAHE, India, Remotely, <strong>(Scholarship)</strong></p>
-                                <h4><li>Bsc-Information Technology</li></h4>
-                                <p>Sept 2015 - Dec 2020<br>Uganda Christian University Mukono</p>
-                                <h4><li>Elements of Artificial Intelligence</li></h4>
-                                <p>2020 - 2020<br>University of Helsinki, Finland, Remotely, <strong>(Scholarship)</strong></p>
-                            </p>
+                            <ul class="education-list">
+                                <li>
+                                    <strong>MSc in Data Science</strong><br>
+                                    Nov 2022 - 27 June 2025<br>
+                                    MAHE, India — <strong>Scholarship</strong>
+                                </li>
+                                <li>
+                                    <strong>BSc — Information Technology</strong><br>
+                                    Sept 2015 - Dec 2020<br>
+                                    Uganda Christian University, Mukono
+                                </li>
+                                <li>
+                                    <strong>Elements of Artificial Intelligence</strong><br>
+                                    2020 — University of Helsinki, Finland — <strong>Scholarship</strong>
+                                </li>
+                            </ul>
                         </div>
                     </div> <!-- end list-block__item -->
         
@@ -362,28 +332,28 @@
                             <h3 class="h3">b) DATA ANALYTICAL BADGES</h3>
                         </div>
                         <div class="list-block__text">
-                            <p>
-                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">Data Analysis Using Python<i class="fas fa-external-link-alt"></i></a></li>
-                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">Data Visualization Using Python<i class="fas fa-external-link-alt"></i></a></li>
-                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">Scrum Foundation Professional Certificate - SFPC<i class="fas fa-external-link-alt"></i></a></li>
-                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">Machine Learning with Python<i class="fas fa-external-link-alt"></i></a></li>
-                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">Enterprise Design Thinking Practitioner <i class="fas fa-external-link-alt"></i></a></li>
-                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank">Applied Data Science with Python<i class="fas fa-external-link-alt"></i></a></li>
-                            </p>
+                            <ul>
+                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank" rel="noopener">Data Analysis Using Python <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank" rel="noopener">Data Visualization Using Python <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank" rel="noopener">Scrum Foundation Professional Certificate - SFPC <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank" rel="noopener">Machine Learning with Python <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank" rel="noopener">Enterprise Design Thinking Practitioner <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.credly.com/users/sean_kamugasa/badges" target="_blank" rel="noopener">Applied Data Science with Python <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+                            </ul>
                         </div>
                         <div class="list-block__title">
                             <h3 class="h3">c) DATA SCIENCE CERTIFICATIONS</h3>
                         </div>
                         <div class="list-block__text">
-                            <p>
-                                <li><a href="https://learn.365datascience.com/certificates/DD-2FD26DF491/" target="_blank"><strong>Business Analyst Career Track</strong></a></li>
-                                <li><a href="https://learn.365datascience.com/certificates/CC-FC9D2D8102/" target="_blank"><strong>Advanced Microsoft Excel</strong></a> : Pivot Tables, V Look Up, H Look Up, Index Match, Circular References, Visuals...</li>
-                                <li><a href="https://learn.365datascience.com/certificates/CC-198BB5CEB4/" target="_blank"><strong>Data Analysis</strong></a> : Excel Pivot Tables</li>
-                                <li><a href="https://learn.365datascience.com/certificates/CC-303FFBD4A3/" target="_blank"><strong>Python Programmer Bootcamp</strong></a> : Loops, Functions, Classes, Unit Tests...</li>
-                                <li><a href="https://www.udemy.com/certificate/UC-e5a480ad-cb6f-497b-aaa0-a68015b12ef2/" target="_blank"><strong>Microsoft Power BI</strong></a> : DAX, Power Query, Visuals, Power BI Service & Desktop...</li>
-                                <li><a href="https://learn.365datascience.com/certificates/CC-D722E8E8E9/" target="_blank"><strong>SQL</strong></a> : Joins, Aggregate Functions, Views, Constraints...</li>
-                                <li><a href="https://www.linkedin.com/learning/certificates/eb4067bec0536f1faa0bfa91ad3c7bddc64e3c2b99e676ce50736bbb2739dffc" target="_blank"><strong>Generative A.I</strong></a> : Artificial Intelligence...</li>
-                            </p>
+                            <ul>
+                                <li><a href="https://learn.365datascience.com/certificates/DD-2FD26DF491/" target="_blank" rel="noopener"><strong>Business Analyst Career Track</strong></a></li>
+                                <li><a href="https://learn.365datascience.com/certificates/CC-FC9D2D8102/" target="_blank" rel="noopener"><strong>Advanced Microsoft Excel</strong></a> — Pivot Tables, VLOOKUP, INDEX/MATCH, visuals</li>
+                                <li><a href="https://learn.365datascience.com/certificates/CC-198BB5CEB4/" target="_blank" rel="noopener"><strong>Data Analysis</strong></a></li>
+                                <li><a href="https://learn.365datascience.com/certificates/CC-303FFBD4A3/" target="_blank" rel="noopener"><strong>Python Programmer Bootcamp</strong></a></li>
+                                <li><a href="https://www.udemy.com/certificate/UC-e5a480ad-cb6f-497b-aaa0-a68015b12ef2/" target="_blank" rel="noopener"><strong>Microsoft Power BI</strong></a></li>
+                                <li><a href="https://learn.365datascience.com/certificates/CC-D722E8E8E9/" target="_blank" rel="noopener"><strong>SQL</strong></a></li>
+                                <li><a href="https://www.linkedin.com/learning/certificates/eb4067bec0536f1faa0bfa91ad3c7bddc64e3c2b99e676ce50736bbb2739dffc" target="_blank" rel="noopener"><strong>Generative A.I</strong></a></li>
+                            </ul>
                         </div>
                     </div> <!-- end list-block__item -->
                 </div> <!-- end services-list -->
@@ -406,91 +376,26 @@
                     </div>
                 </div> <!-- end section-header -->
 
-
             </section> <!-- end s-folio -->
-
-
-            <!-- testimonials
-            ----------------------------------------------- -->
-            <section id="testimonials" class="s-testimonials">
-
-                <div class="row s-testimonials__content">
-                    <div class="column lg-12">
-        
-                        <div class="swiper-container s-testimonials__slider">
-        
-                            <div class="swiper-wrapper">
-    
-                                <div class="s-testimonials__slide swiper-slide">
-                                    <div class="s-testimonials__author">
-
-                                        <cite class="s-testimonials__cite">
-                                            <strong>KELVIN GALABUZI</strong>
-                                            <span>Senior Devops Engineer @ Trainer Road, USA</span>
-                                        </cite>
-                                    </div>
-                                    <p>
-                                        “Sean is one of the few people that is always learning and improving on the way of completing a task. I
-                                        would definitely recommend him for any software development project not only because of his passion
-                                        for career development, but the skills he embraces when learning and explaining the inner workings of
-                                        even the most complex software systems."
-                                    </p>
-                                </div> <!-- end s-testimonials__slide -->
-                
-                                <div class="s-testimonials__slide swiper-slide">
-                                    <div class="s-testimonials__author">
-                                        <cite class="s-testimonials__cite">
-                                            <strong>RONNIE LUTARO</strong>
-                                            <span>Consultant @ UN WOMEN</span>
-                                        </cite>
-                                    </div>
-                                    <p>
-                                        “Sean is a very hardworking individual with great work ethic and whose goal oriented personality yielded
-                                        great results for the organization. He was able to derive insights from complicated and complex datasets
-                                        through the usage of data tools like Python, SQL, Power BI & Excel. This enabled the organization to
-                                        make data driven decisions thus improving ROI."
-                                    </p>
-                                </div> <!-- end s-testimonials__slide -->
-            
-                            </div> <!-- end swiper-wrapper -->
-        
-                            <div class="swiper-pagination"></div>
-        
-                        </div> <!-- end swiper-container -->
-        
-                    </div> <!-- end column -->
-                </div> <!-- end s-testimonials__content -->
-
-            </section> <!-- end testimonials -->
-
-        </section>  <!-- end content -->
 
 
         <!-- # site-footer
         ================================================== -->
 
+        <footer id="footer" class="s-footer" role="contentinfo">
             <div class="row s-footer__bottom">
                 <div class="column lg-6 tab-12 s-footer__bottom-left">
                     <ul class="s-footer__social">
-                        <li>
-                            <a href="mailto:seankamugasa@gmail.com" title="">seankamugasa@gmail.com</a> 
-                        </li>
-                    </div>
+                        <li><a href="mailto:seankamugasa@gmail.com">seankamugasa@gmail.com</a></li>
+                    </ul>
+                </div>
 
                 <div class="column lg-6 tab-12 s-footer__bottom-right">
                     <div class="ss-copyright">
-                        <span>© Copyright Sean Kamugasa 2025</span> 
+                        <span>© Copyright Sean Kamugasa 2025</span>
                     </div>
                 </div>
-            
             </div> <!-- s-footer__bottom -->
-    
-            <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
-                </a>
-            </div> <!-- end ss-go-top -->
-    
         </footer> <!-- end footer -->
 
 
